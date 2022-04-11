@@ -2,7 +2,7 @@ import React from "react";
 
 function About(props) {
     return (
-        <div></div>
+        <section id="about">About</section>
     );
 }
 
