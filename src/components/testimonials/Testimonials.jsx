@@ -1,18 +1,16 @@
 import React from "react";
+import {Pagination} from "swiper";
+import {Swiper, SwiperSlide} from "swiper/react";
+
+import "swiper/css";
+import "swiper/css/pagination";
+
 import "./testimonials.css";
+
 import AVTR1 from "../../assets/avatar1.jpg";
 import AVTR2 from "../../assets/avatar2.jpg";
 import AVTR3 from "../../assets/avatar3.jpg";
 import AVTR4 from "../../assets/avatar4.jpg";
-
-// import Swiper core and required modules
-import {Pagination} from "swiper";
-
-import {Swiper, SwiperSlide} from "swiper/react";
-
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
 
 function Testimonials(props) {
     return (
@@ -30,7 +28,7 @@ function Testimonials(props) {
             >
                 <SwiperSlide className="testimonial">
                     <div className="client__avatar">
-                        <img src={AVTR1} className="client__avatar" alt="testimonial image"/>
+                        <img src={AVTR1} className="client__avatar"/>
                     </div>
                     <h5 className="client__name">Test name</h5>
                     <small className="client__review">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -42,7 +40,7 @@ function Testimonials(props) {
 
                 <SwiperSlide className="testimonial">
                     <div className="client__avatar">
-                        <img src={AVTR2} className="client__avatar" alt="testimonial image"/>
+                        <img src={AVTR2} className="client__avatar"/>
                     </div>
                     <h5 className="client__name">Test name</h5>
                     <small className="client__review">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -54,7 +52,7 @@ function Testimonials(props) {
 
                 <SwiperSlide className="testimonial">
                     <div className="client__avatar">
-                        <img src={AVTR3} className="client__avatar" alt="testimonial image"/>
+                        <img src={AVTR3} className="client__avatar"/>
                     </div>
                     <h5 className="client__name">Test name</h5>
                     <small className="client__review">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -66,7 +64,7 @@ function Testimonials(props) {
 
                 <SwiperSlide className="testimonial">
                     <div className="client__avatar">
-                        <img src={AVTR4} className="client__avatar" alt="testimonial image"/>
+                        <img src={AVTR4} className="client__avatar"/>
                     </div>
                     <h5 className="client__name">Test name</h5>
                     <small className="client__review">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
