@@ -28,7 +28,7 @@ function Testimonials(props) {
                     pagination={{ clickable: true }}
                     scrollbar={{ draggable: true }}
             >
-                <SwiperSlide className="testimonial" slideClass="">
+                <SwiperSlide className="testimonial">
                     <div className="client__avatar">
                         <img src={AVTR1} className="client__avatar" alt="testimonial image"/>
                     </div>
@@ -40,7 +40,7 @@ function Testimonials(props) {
                     </small>
                 </SwiperSlide>
 
-                <SwiperSlide className="testimonial" slideClass="">
+                <SwiperSlide className="testimonial">
                     <div className="client__avatar">
                         <img src={AVTR2} className="client__avatar" alt="testimonial image"/>
                     </div>
@@ -52,7 +52,7 @@ function Testimonials(props) {
                     </small>
                 </SwiperSlide>
 
-                <SwiperSlide className="testimonial" slideClass="">
+                <SwiperSlide className="testimonial">
                     <div className="client__avatar">
                         <img src={AVTR3} className="client__avatar" alt="testimonial image"/>
                     </div>
@@ -64,7 +64,7 @@ function Testimonials(props) {
                     </small>
                 </SwiperSlide>
 
-                <SwiperSlide className="testimonial" slideClass="">
+                <SwiperSlide className="testimonial">
                     <div className="client__avatar">
                         <img src={AVTR4} className="client__avatar" alt="testimonial image"/>
                     </div>
