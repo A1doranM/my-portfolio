@@ -69,7 +69,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
     --transition: all 400ms ease;
 
-    --container-width-lg: 30%;
+    --container-width-lg: 40%;
     --container-width-md: 86%;
     --container-width-sm: 90%;
 }
@@ -106,7 +106,6 @@ h1 {
 
 section {
     margin-top: 8rem;
-    height: 100vh;
 }
 
 section > h2,
