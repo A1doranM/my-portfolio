@@ -17,7 +17,7 @@ function Header(props) {
                 <HeaderSocials/>
 
                 <div className="me">
-                    <img src={ME} alt="Image of me."/>
+                    <img src={ME}/>
                 </div>
 
                 <a href="#contacts" className="scroll__down">Scroll Down</a>

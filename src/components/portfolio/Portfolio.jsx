@@ -16,7 +16,7 @@ function Portfolio(props) {
             <div className="container portfolio__container">
                 <article className="portfolio__item">
                     <div className="portfolio__item-image">
-                        <img src={IMG1} alt="First portfolio img."/>
+                        <img src={IMG1}/>
                     </div>
                     <h3>This is a portfolio item title.</h3>
                     <div className="portfolio__item-cta">
@@ -27,7 +27,7 @@ function Portfolio(props) {
 
                 <article className="portfolio__item">
                     <div className="portfolio__item-image">
-                        <img src={IMG2} alt=" portfolio img."/>
+                        <img src={IMG2}/>
                     </div>
                     <h3>This is a portfolio item title.</h3>
                     <div className="portfolio__item-cta">
@@ -38,7 +38,7 @@ function Portfolio(props) {
 
                 <article className="portfolio__item">
                     <div className="portfolio__item-image">
-                        <img src={IMG3} alt="portfolio img."/>
+                        <img src={IMG3}/>
                     </div>
                     <h3>This is a portfolio item title.</h3>
                     <div className="portfolio__item-cta">
@@ -49,7 +49,7 @@ function Portfolio(props) {
 
                 <article className="portfolio__item">
                     <div className="portfolio__item-image">
-                        <img src={IMG4} alt="portfolio img."/>
+                        <img src={IMG4}/>
                     </div>
                     <h3>This is a portfolio item title.</h3>
                     <div className="portfolio__item-cta">
@@ -60,7 +60,7 @@ function Portfolio(props) {
 
                 <article className="portfolio__item">
                     <div className="portfolio__item-image">
-                        <img src={IMG5} alt="portfolio img."/>
+                        <img src={IMG5}/>
                     </div>
                     <h3>This is a portfolio item title.</h3>
                     <div className="portfolio__item-cta">
@@ -71,7 +71,7 @@ function Portfolio(props) {
 
                 <article className="portfolio__item">
                     <div className="portfolio__item-image">
-                        <img src={IMG6} alt="portfolio img."/>
+                        <img src={IMG6}/>
                     </div>
                     <h3>This is a portfolio item title.</h3>
                     <div className="portfolio__item-cta">
