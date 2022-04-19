@@ -26,52 +26,60 @@ function Testimonials(props) {
                     pagination={{ clickable: true }}
                     scrollbar={{ draggable: true }}
             >
-                <SwiperSlide className="testimonial">
-                    <div className="client__avatar">
-                        <img src={AVTR1} className="client__avatar"/>
+                <SwiperSlide>
+                    <div className="testimonial">
+                        <div className="client__avatar">
+                            <img src={AVTR1} className="client__avatar"/>
+                        </div>
+                        <h5 className="client__name">Test name</h5>
+                        <small className="client__review">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Architecto commodi cupiditate dignissimos dolores eaque ex explicabo fugiat impedit labore
+                            laborum, modi molestias neque nesciunt nobis quo repellendus sapiente, tempore
+                            tenetur.
+                        </small>
                     </div>
-                    <h5 className="client__name">Test name</h5>
-                    <small className="client__review">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Architecto commodi cupiditate dignissimos dolores eaque ex explicabo fugiat impedit labore
-                        laborum, modi molestias neque nesciunt nobis quo repellendus sapiente, tempore
-                        tenetur.
-                    </small>
                 </SwiperSlide>
 
-                <SwiperSlide className="testimonial">
-                    <div className="client__avatar">
-                        <img src={AVTR2} className="client__avatar"/>
+                <SwiperSlide>
+                    <div className="testimonial">
+                        <div className="client__avatar">
+                            <img src={AVTR2} className="client__avatar"/>
+                        </div>
+                        <h5 className="client__name">Test name</h5>
+                        <small className="client__review">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Architecto commodi cupiditate dignissimos dolores eaque ex explicabo fugiat impedit labore
+                            laborum, modi molestias neque nesciunt nobis quo repellendus sapiente, tempore
+                            tenetur.
+                        </small>
                     </div>
-                    <h5 className="client__name">Test name</h5>
-                    <small className="client__review">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Architecto commodi cupiditate dignissimos dolores eaque ex explicabo fugiat impedit labore
-                        laborum, modi molestias neque nesciunt nobis quo repellendus sapiente, tempore
-                        tenetur.
-                    </small>
                 </SwiperSlide>
 
-                <SwiperSlide className="testimonial">
-                    <div className="client__avatar">
-                        <img src={AVTR3} className="client__avatar"/>
+                <SwiperSlide>
+                    <div className="testimonial">
+                        <div className="client__avatar">
+                            <img src={AVTR3} className="client__avatar"/>
+                        </div>
+                        <h5 className="client__name">Test name</h5>
+                        <small className="client__review">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Architecto commodi cupiditate dignissimos dolores eaque ex explicabo fugiat impedit labore
+                            laborum, modi molestias neque nesciunt nobis quo repellendus sapiente, tempore
+                            tenetur.
+                        </small>
                     </div>
-                    <h5 className="client__name">Test name</h5>
-                    <small className="client__review">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Architecto commodi cupiditate dignissimos dolores eaque ex explicabo fugiat impedit labore
-                        laborum, modi molestias neque nesciunt nobis quo repellendus sapiente, tempore
-                        tenetur.
-                    </small>
                 </SwiperSlide>
 
-                <SwiperSlide className="testimonial">
-                    <div className="client__avatar">
-                        <img src={AVTR4} className="client__avatar"/>
+                <SwiperSlide>
+                    <div className="testimonial">
+                        <div className="client__avatar">
+                            <img src={AVTR4} className="client__avatar"/>
+                        </div>
+                        <h5 className="client__name">Test name</h5>
+                        <small className="client__review">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Architecto commodi cupiditate dignissimos dolores eaque ex explicabo fugiat impedit labore
+                            laborum, modi molestias neque nesciunt nobis quo repellendus sapiente, tempore
+                            tenetur.
+                        </small>
                     </div>
-                    <h5 className="client__name">Test name</h5>
-                    <small className="client__review">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Architecto commodi cupiditate dignissimos dolores eaque ex explicabo fugiat impedit labore
-                        laborum, modi molestias neque nesciunt nobis quo repellendus sapiente, tempore
-                        tenetur.
-                    </small>
                 </SwiperSlide>
             </Swiper>
         </section>

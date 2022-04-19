@@ -20,7 +20,6 @@ function App() {
                 <Portfolio/>
                 <Testimonials/>
                 <Contacts/>
-                <Footer/>
             </main>
             <Footer/>
         </>
